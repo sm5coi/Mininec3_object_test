@@ -1,0 +1,1 @@
+# Mininec3_object_test
