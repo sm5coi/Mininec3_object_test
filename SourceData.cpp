@@ -4,7 +4,6 @@
 #include <iostream>
 #include <iomanip>
 
-
 using namespace std;
 
 void SourceData(SimulationState& S)

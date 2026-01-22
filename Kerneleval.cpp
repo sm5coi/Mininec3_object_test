@@ -1,5 +1,4 @@
-﻿//#include "KernelEval.hpp"
-#include "SimulationState.hpp"
+﻿#include "SimulationState.hpp"
 #include "EllipticIntegral.hpp"
 #include <cmath>
 

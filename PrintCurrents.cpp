@@ -107,7 +107,9 @@ void PrintCurrents(SimulationState& S)
     char Is;
 
     // BASIC line 497 compute impedances + currents
+    std::cout << "Entry of ImpedanceMatrix" << std::endl;
     ImpedanceMatrix( S);    // 497
+    std::cout << "Exit of ImpedanceMatrix" << std::endl;
 
     char Sflag = 'N';                   // 498
 

@@ -40,7 +40,11 @@ void NearField() {
 // ========== MAIN PROGRAM =========
 // =================================
 int main() {
+
+#ifdef _WIN32
+    // Kör "chcp 65001" bara på Windows
     system("chcp 65001 > nul");
+#endif
 
     SimulationState S;
 

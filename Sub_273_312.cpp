@@ -2,14 +2,6 @@
 #include "Gosub87.hpp"
 #include <cmath>
 
-// Helper to safely fetch Sa for J1/J2
-static inline double SafeSa(const std::vector<double>& Sa, int idx)
-{
-    if (idx <= 0) return 0.0;
-    if (idx >= (int)Sa.size()) return 0.0;
-    return Sa[idx];
-}
-
 void Sub_273_312(
     SimulationState& S,
     GeometryData g,

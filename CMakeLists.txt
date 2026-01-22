@@ -48,6 +48,7 @@ add_executable(Mininec3_object_test
     main.cpp
     buildZ.hpp
     buildZ.cpp
+    geometry.hpp geometry.cpp
 )
 
 include(GNUInstallDirs)

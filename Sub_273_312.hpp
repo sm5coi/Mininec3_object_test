@@ -2,7 +2,6 @@
 #define SUB_273_312_HPP
 
 #include "SimulationState.hpp"
-#include "GeometryData.hpp"
 
 // Direct translation of Sub_273_312
 void Sub_273_312(

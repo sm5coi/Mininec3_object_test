@@ -1,5 +1,4 @@
-﻿//#include "EllipticIntegral.hpp"
-#include <cmath>
+﻿#include <cmath>
 
 double EllipticIntegral(double B)
 {

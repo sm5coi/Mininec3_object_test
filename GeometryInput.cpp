@@ -39,7 +39,7 @@ GeometryData GeometryInput( SimulationState& S)
     if (INFILE) {
         fid.open("MININEC.INP");
         if (!fid) {
-            std::cerr << "ERROR: Cannot open MININEC_chatgpt.INP\n";
+            std::cerr << "ERROR: Cannot open MININEC.INP\n";
             exit(1);
         }
     }

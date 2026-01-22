@@ -2,7 +2,6 @@
 #define FACTORIZATION_H
 
 #include "SimulationState.hpp"
-//#include "GeometryData.hpp"
 
 void Factorization(SimulationState& S);
 

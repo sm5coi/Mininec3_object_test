@@ -2,7 +2,6 @@
 #define BETA_247_315_HPP
 
 #include "SimulationState.hpp"
-#include "GeometryData.hpp"
 
 void Beta_247_315(
     SimulationState& S,
